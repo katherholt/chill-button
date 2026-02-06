@@ -23,12 +23,14 @@ struct ChillProvider: TimelineProvider {
 
     private func randomMessage() -> String {
         let messages = [
-            "Take a breath",
+            "Inhale… exhale",
             "You're doing great",
-            "Relax for a moment",
-            "Stay chill",
+            "Easy does it",
+            "Stay frosty",
             "One step at a time",
-            "It's okay to pause",
+            "No rush, no worry",
+            "You've got this",
+            "Let it go",
         ]
         return messages.randomElement() ?? "Stay chill"
     }
@@ -58,7 +60,7 @@ struct ChillButtonWidget: Widget {
             ChillButtonWidgetEntryView(entry: entry)
         }
         .configurationDisplayName("Chill Button")
-        .description("A gentle reminder to stay chill.")
+        .description("Your pocket-sized moment of calm.")
         .supportedFamilies([.systemSmall, .systemMedium])
     }
 }

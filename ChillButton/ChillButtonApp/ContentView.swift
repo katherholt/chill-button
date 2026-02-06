@@ -1,15 +1,17 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var message = "Tap the button"
+    @State private var message = "Go ahead, tap it"
 
     private let messages = [
-        "Take a breath",
+        "Inhale… exhale",
         "You're doing great",
-        "Relax for a moment",
-        "Stay chill",
+        "Easy does it",
+        "Stay frosty",
         "One step at a time",
-        "It's okay to pause",
+        "No rush, no worry",
+        "You've got this",
+        "Let it go",
     ]
 
     var body: some View {
